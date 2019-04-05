@@ -16,6 +16,6 @@
     .include('utils')
     .into(app); //Consign incluir a pasta routes e utils - Passando app para os arquivos
 
-app.listen(3001, '127.0.0.1', ()=>{ //Servidor ouvindo(porta, IP Local)
+app.listen(3000, '127.0.0.1', ()=>{ //Servidor ouvindo(porta, IP Local)
         console.log('Servidor Rodando');
 })
