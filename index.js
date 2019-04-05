@@ -19,7 +19,3 @@
 app.listen(3001, '127.0.0.1', ()=>{ //Servidor ouvindo(porta, IP Local)
         console.log('Servidor Rodando');
 })
-
-
-
-
