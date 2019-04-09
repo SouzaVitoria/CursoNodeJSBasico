@@ -1,0 +1,9 @@
+const app = require('express')(); //pegar uma função e executar ela por isso ()
+
+app.listen(3000, (req, res)=>{ //Conectando ao servidor
+  console.log('Servidor Rodando');
+});
+
+app.get('/empregados', (req, res)=>{
+ res.send(req.query); //query é depois da interrogação na URL
+}) 
